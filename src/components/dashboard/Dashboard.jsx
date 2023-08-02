@@ -1,5 +1,7 @@
 import React from 'react';
 
+const titulo = "Dashboard!";
+
 const DashBoardComponent = () =>{
     return (
         <div className="flex h-screen bg-gray-100">
@@ -12,7 +14,7 @@ const DashBoardComponent = () =>{
             {/* Main content */}
             <main className="flex-1 p-8">
                 {/* Main content goes here */}
-                <h1 className="text-3xl font-bold">Welcome to the Dashboard!</h1>
+                <h1 className="text-3xl font-bold">{titulo}</h1>
                 {/* Add your dashboard components here */}
             </main>
         </div>
